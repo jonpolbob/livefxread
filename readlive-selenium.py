@@ -6,6 +6,9 @@ import http.client
 #lecture d'une page fxdata mise a jour
 # et detection de paires qui changent
 
+
+#ce programme srt a tester d'abord qu'n arrive a lire le sie, on ve ensuite cherhcer dedans les donnees
+
 dcap = dict(DesiredCapabilities.PHANTOMJS)
 dcap["phantomjs.page.settings.userAgent"] = (
      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
